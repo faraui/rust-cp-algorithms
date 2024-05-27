@@ -1,4 +1,4 @@
-pub fn mulmod(mut u: u64, mut v: u64, w: u64) -> u64 {
+pub fn mulmod(mut u: u128, mut v: u128, w: u128) -> u128 {
     let mut r = 1;
     while v != 0 {
         if v & 1 != 0 {
