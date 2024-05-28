@@ -1,4 +1,4 @@
-pub fn factmod(mut u: u128, v: u128) -> u128 {
+pub fn factmod(mut u: usize, v: usize) -> usize {
     let mut r = 1;
     while u > 1 {
         r *= ((u / v) % 2 == 1).then(|| v - 1).unwrap_or(1);
