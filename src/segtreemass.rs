@@ -10,11 +10,11 @@ struct SegmentTreeMassiveOperations {
     a: Vec<usize>,
 }
 
-impl SegmentTree {
+impl SegmentTreeMassiveOperations {
     fn new(a: Vec<usize>) -> Self {
         let n = a.len();
         let mut t = vec![Seg { val: 0, push: 0 }; 4 * n];
-        let mut st = SegmentTree { t, a };
+        let mut st = SegmentTreeMassiveOperations { t, a };
         st.build(1, 0, n - 1);
         st
     }
