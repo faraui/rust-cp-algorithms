@@ -1,2 +1,2 @@
-# Rust competitive programming algorithms
+# rust-cp-algorithms
 Algorithms I have implemented in Rust competitive programming (long ariphmetic ommited; use rug or ibig). These algorithms are:
